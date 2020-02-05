@@ -8,7 +8,7 @@ string.scan(/\b[uU]n[a-z]*ing\b/)
 #  untexting=[]
 #  while i <= text.length do
 #    if (text.match(/\b[uU][nN]/) && text[i].match(/[i][n][g]\b/))
-#    text.each do |i| 
+#    text.each do |i|
 #      if i.scan(/\b[uU][nN]|[i][n][g]\b/)
 #    end
 #    i += 1
