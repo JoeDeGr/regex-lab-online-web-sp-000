@@ -12,7 +12,7 @@ string.scan(/\b[uU]n[a-z]*ing\b/)
 #      if i.scan(/\b[uU][nN]|[i][n][g]\b/)
 #    end
 #    i += 1
-  end
+#  end
 #return untexting
 end
 
