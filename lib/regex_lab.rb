@@ -3,15 +3,17 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  i = 0
-  untexting=[]
-  while i <= text.length do
-    if (text[i].match(/\b[uU][nN]/) && text[i].match(/[i][n][g]\b/))
-      untexting << text[i]
-    end
-    i += 1
+string.scan(/\b[uU]n[a-z]*ing\b/)
+#  i = 0
+#  untexting=[]
+#  while i <= text.length do
+#    if (text.match(/\b[uU][nN]/) && text[i].match(/[i][n][g]\b/))
+#    text.each do |i| 
+#      if i.scan(/\b[uU][nN]|[i][n][g]\b/)
+#    end
+#    i += 1
   end
-  return untexting
+#return untexting
 end
 
 def words_five_letters_long(text)
